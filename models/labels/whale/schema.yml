@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: nft_whale
+    columns:
+      - name: address
+        tests:
+          - unique

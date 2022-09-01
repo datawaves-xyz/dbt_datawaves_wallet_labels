@@ -1,0 +1,37 @@
+
+# Name your project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: 'datawaves_wallet_labels'
+version: '1.0.0'
+config-version: 2
+
+profile: 'datawaves_wallet_labels'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"  
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  +file_format: delta
+
+  datawaves_wallet_labels:
+    labels:
+      +schema: labels
+      +materialized: ephemeral
+      +tags: ['abstraction']
+
+    index:
+      +schema: index
+      +materialized: ephemeral
+      +tags: ['abstraction']
+
+  

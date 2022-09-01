@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: labels
+    config:
+      materialized: view
+
