@@ -7,16 +7,16 @@
 This dbt project create a bunch of wallet labels using [dbt_datawaves](https://github.com/datawaves-xyz/dbt_datawaves) package. 
 
 
-### Wallet labels
+### Wallet labels🏷️
 
 
-#### Whale
+#### Whale🐋
 
 | **model** | **description**  |
 |-----------|------------------|
 | [nft_whale](https://github.com/datawaves-xyz/dbt_datawaves_wallet_labels/blob/master/models/labels/whale/nft_whale.sql) | Top 0.1% in the number of NFT transactions|
 
-#### Smart Money
+#### Smart Money🥋
 
 | **model** | **description**  |
 |-----------|------------------|
@@ -26,7 +26,7 @@ This dbt project create a bunch of wallet labels using [dbt_datawaves](https://g
 | [smart_nft_trader](https://github.com/datawaves-xyz/dbt_ethereum/blob/master/models/labels/smart_money/smart_nft_trader.sql) | The top 100 addresses in terms of realized profits from NFT sales. |
 | [smart_nft_golden_dog_minter](https://github.com/datawaves-xyz/dbt_ethereum/blob/master/models/labels/smart_money/smart_nft_golden_dog_minter.sql)| The top 100 addresses that have realized profits on least 2 Golden Dog Collections that were minted in the last 60 days. | 
 
-#### NFT Collector 
+#### NFT Collector🎭
 
 | **model** | **description**  |
 |-----------|------------------|
