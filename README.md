@@ -4,7 +4,7 @@
 ## What does this dbt project do?
 
 
-This dbt project create a bunch of wallet labels on Ethereum Network using [dbt_datawaves](https://datawaves.xyz/) package. 
+This dbt project create a bunch of wallet labels using [dbt_datawaves](https://github.com/datawaves-xyz/dbt_datawaves) package. 
 
 
 ### Wallet labels
