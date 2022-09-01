@@ -20,9 +20,9 @@ This dbt project create a bunch of wallet labels using [dbt_datawaves](https://g
 |-----------|------------------|
 | [smart_nft_trader](https://github.com/datawaves-xyz/dbt_datawaves_wallet_labels/blob/master/models/labels/smart_money/smart_nft_trader.sql) | The top 100 addresses in terms of realized profits from NFT sales. |
 | [smart_nft_holder](https://github.com/datawaves-xyz/dbt_datawaves_wallet_labels/blob/master/models/labels/smart_money/smart_nft_holder.sql) | The top 100 addresses in terms of estimated profits of their current NFT portfolio. |
-| [smart_nft_sweeper](https://github.com/datawaves-xyz/dbt_ethereum/blob/master/models/labels/smart_money/smart_nft_sweeper.sql) | Addresses that have profitably swept at least 5 times at or below the floor price in the last 30 days. |
-| [smart_nft_trader](https://github.com/datawaves-xyz/dbt_ethereum/blob/master/models/labels/smart_money/smart_nft_trader.sql) | The top 100 addresses in terms of realized profits from NFT sales. |
-| [smart_nft_golden_dog_minter](https://github.com/datawaves-xyz/dbt_ethereum/blob/master/models/labels/smart_money/smart_nft_golden_dog_minter.sql)| The top 100 addresses that have realized profits on least 2 Golden Dog Collections that were minted in the last 60 days. | 
+| [smart_nft_sweeper](https://github.com/datawaves-xyz/dbt_datawaves_wallet_labels/blob/master/models/labels/smart_money/smart_nft_sweeper.sql) | Addresses that have profitably swept at least 5 times at or below the floor price in the last 30 days. |
+| [smart_nft_trader](https://github.com/datawaves-xyz/dbt_datawaves_wallet_labels/blob/master/models/labels/smart_money/smart_nft_trader.sql) | The top 100 addresses in terms of realized profits from NFT sales. |
+| [smart_nft_golden_dog_minter](https://github.com/datawaves-xyz/dbt_datawaves_wallet_labels/blob/master/models/labels/smart_money/smart_nft_golden_dog_minter.sql)| The top 100 addresses that have realized profits on least 2 Golden Dog Collections that were minted in the last 60 days. | 
 
 ## NFT Collector🎭
 
